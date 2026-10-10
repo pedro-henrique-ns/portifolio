@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedro Henrique | Portfólio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo" id="topo">
+    <a href="#inicio" class="logo">PH</a>
+
+    <ul class="menu">
+      <li><a href="#inicio" class="link-menu">Início</a></li>
+      <li><a href="#sobre" class="link-menu">Sobre Mim</a></li>
+      <li><a href="#skills" class="link-menu">Skills</a></li>
+      <li><a href="#projetos" class="link-menu">Projetos</a></li>
+      <li><a href="#contato" class="link-menu">Contato</a></li>
+    </ul>
+
+    <button class="interruptor" id="temaBotao">
+      <span class="tema-texto" id="temaTexto">Claro</span>
+      <span class="bolinha" id="bolinha">☀️</span>
+    </button>
+  </header>
+
+  <main>
+
+    <section id="inicio" class="inicio">
+      <div class="container inicio-grade">
+        <div class="inicio-texto">
+          <h1><span class="azul">Pedro</span> Henrique</h1>
+          <p class="subtitulo"><span id="digitando"></span><span class="cursor">|</span></p>
+          <p class="resumo">Estou construindo meus primeiros projetos para a web e buscando oportunidades para aprender e crescer na área de tecnologia.</p>
+          <ul class="botoes">
+            <li><a href="#projetos" class="botao">Ver projetos</a></li>
+            <li><a href="#contato" class="botao botao-borda">Falar comigo</a></li>
+          </ul>
+        </div>
+
+        <img src="page1.png" alt="Ilustração de um notebook com código na tela" class="ilustracao">
+      </div>
+    </section>
+
+    <section id="sobre" class="secao">
+      <div class="container">
+        <div class="sobre-card">
+          <div class="card-titulo">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><circle cx="12" cy="7" r="4.5"></circle><path d="M3 21c0-5 4-8 9-8s9 3 9 8z"></path></svg>
+            <h2>Sobre Mim</h2>
+          </div>
+
+          <div class="sobre-conteudo">
+            <div class="sobre-texto">
+              <p>Olá! Eu sou o Pedro Henrique, estudante da área de tecnologia e curioso por tudo que envolve criar páginas e sistemas para a web.</p>
+              <p>Estou aprendendo HTML, CSS e JavaScript e gosto de aprender na prática, testando e melhorando cada projeto. Cada página que eu construo me ajuda a entender melhor como as coisas funcionam por trás da tela.</p>
+              <p>Gosto de resolver problemas passo a passo, pesquisar quando surge uma dúvida e transformar uma ideia em algo que as pessoas possam ver e usar. Também me preocupo com o visual, porque um bom site precisa ser bonito e fácil de usar.</p>
+              <p>Meu objetivo é continuar evoluindo, conhecer novas tecnologias e crescer como desenvolvedor. Neste portfólio você encontra um pouco do que já construí e como entrar em contato comigo.</p>
+            </div>
+
+            <div class="foto-redonda">
+              <img src="pedro.jpeg" alt="Foto de Pedro Henrique">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="secao fundo-alt">
+      <div class="container">
+        <div class="secao-topo">
+          <h2>Skills</h2>
+          <p>Tecnologias que estou aprendendo e usando nos meus projetos.</p>
+        </div>
+
+        <ul class="skills-grade">
+          <li class="skill">
+            <div class="icone">HTML</div>
+            <h3>HTML</h3>
+          </li>
+          <li class="skill">
+            <div class="icone">CSS</div>
+            <h3>CSS</h3>
+          </li>
+          <li class="skill">
+            <div class="icone">JS</div>
+            <h3>JavaScript</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projetos" class="secao">
+      <div class="container">
+        <div class="secao-topo">
+          <h2>Projetos</h2>
+          <p>Alguns trabalhos que fiz até agora.</p>
+        </div>
+
+        <ul class="projetos-grade">
+          <li class="projeto">
+            <p class="projeto-tipo">Web — HTML, CSS e JavaScript</p>
+            <h3>Portfólio pessoal</h3>
+            <p class="projeto-texto">Site responsivo com modo claro e escuro, formulário de contato com máscaras e texto animado no início.</p>
+            <ul class="tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <ul class="botoes">
+              <li><button class="botao" id="abrirModalProjeto">Ver detalhes</button></li>
+              <li><a href="https://github.com/pedro-henrique-ns" target="_blank" class="botao botao-borda">Ver no GitHub</a></li>
+            </ul>
+          </li>
+
+          <li class="projeto projeto-breve">
+            <p class="projeto-tipo">Em breve</p>
+            <h3>Novos projetos</h3>
+            <p class="projeto-texto">Novos trabalhos serão adicionados aqui conforme eu for estudando e construindo.</p>
+            <ul class="botoes">
+              <li><a href="https://github.com/pedro-henrique-ns" target="_blank" class="botao botao-borda">Meu GitHub</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contato" class="secao fundo-alt">
+      <div class="container">
+        <div class="secao-topo">
+          <h2>Contato</h2>
+          <p>Vamos conversar? Preencha o formulário ou fale comigo pelos links.</p>
+        </div>
+
+        <div class="contato-caixa">
+          <div class="contato-info">
+            <div>
+              <h3>Fale comigo</h3>
+              <p>Estou aberto a conversar sobre estágios, projetos e novas oportunidades. Mande uma mensagem ou use os links abaixo.</p>
+            </div>
+
+            <ul class="contato-lista">
+              <li>
+                <span>E-mail</span>
+                <a href="mailto:p3dro.edicao@gmail.com">p3dro.edicao@gmail.com</a>
+              </li>
+              <li>
+                <span>GitHub</span>
+                <a href="https://github.com/pedro-henrique-ns" target="_blank">github.com/pedro-henrique-ns</a>
+              </li>
+            </ul>
+          </div>
+
+          <form id="formulario" class="formulario">
+            <ul>
+              <li>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Seu nome completo">
+                <small class="erro" id="erroNome"></small>
+              </li>
+              <li>
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" placeholder="(31) 99999-9999" maxlength="15">
+                <small class="erro" id="erroTelefone"></small>
+              </li>
+              <li>
+                <label for="email">E-mail</label>
+                <input type="text" id="email" placeholder="voce@email.com">
+                <small class="erro" id="erroEmail"></small>
+              </li>
+              <li>
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" rows="4" maxlength="300" placeholder="Escreva sua mensagem"></textarea>
+                <small class="contador" id="contador">0 / 300</small>
+                <small class="erro" id="erroMensagem"></small>
+              </li>
+              <li>
+                <button type="submit" class="botao-enviar">Enviar mensagem</button>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape-interno">
+      <p>© 2026 Pedro Henrique</p>
+      <ul class="rodape-links">
+        <li><a href="mailto:p3dro.edicao@gmail.com">E-mail</a></li>
+        <li><a href="https://github.com/pedro-henrique-ns" target="_blank">GitHub</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <div class="modal" id="modal">
+    <div class="modal-caixa">
+      <h3 id="modalTitulo"></h3>
+      <p id="modalTexto"></p>
+      <button class="botao" id="fecharModal">Fechar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
